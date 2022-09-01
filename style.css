@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box-1 {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1B244A;
+    color: white;
+    border-radius: 20px;
+}
+
+/* .box-2{
+    border: 1px solid black;
+    cursor: pointer;
+} */
+.box-3 {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1B244A;
+    color: white;
+    border-radius: 20px;
+}
+
+.number {
+    border: 10px solid white;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background: #F94F6D;
+    border-radius: 20px;
+}
+
+.tri-btn {
+    display: flex;
+    margin: 20px 0;
+
+}
+
+.sqr {
+    border: 5px solid white;
+    margin: 30px 40px;
+    padding: 15px;
+    cursor: pointer;
+    background: white;
+    border-radius: 20px;
+    color: #1B244A;
+}
+
+@media only screen and (max-width: 760px) {
+    .container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-1 {
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #1B244A;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .box-3 {
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #1B244A;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .number {
+        border: 10px solid white;
+        height: 100px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        background: #F94F6D;
+        border-radius: 20px;
+    }
+
+    .sqr {
+        border: 5px solid white;
+        margin: 15px 20px;
+        padding: 7.5px;
+        cursor: pointer;
+        background: white;
+        border-radius: 20px;
+        color: #1B244A;
+    }
+
+}
