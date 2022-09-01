@@ -33,7 +33,4 @@ function three3() {
   num2.textContent = count2;
 }
 
-// function reset() {
-//   num1.textContent = count1
-//   num2.textContent = count2
-// }
+
